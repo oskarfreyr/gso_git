@@ -4,6 +4,3 @@
 skra = input("sláðu inn nafn á skrá")
 namskra = skra + ".txt"
 SkrainMin = open(namskra, 'w+')
-
-SkrainMin.write("Fyrsta Línan Í skránni")
-SkrainMin.close()
